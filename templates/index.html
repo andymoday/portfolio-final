@@ -1,0 +1,39 @@
+{% include "header.html" %}
+
+        <div class="content page">
+            <h1>
+                <i><b><u>About Me</u></b></i>
+            </h1>
+
+            <p>
+                I'm a Programmer and Musician based in Portsmouth, UK
+            <br><br>
+                I work mainly with Python and Javascript,
+                and have an interest in all things Data and AI.
+                I previously worked in Data Analysis but retrained in programming
+                after discovering a love for it during the pandemic!
+            <br><br>
+                In my spare time I play music.
+            </p>
+
+
+            <div class="container mt-5">
+              <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-12">
+                    <div id="pro_link">
+                        <a class="home_links text-dark" href="{{ url_for('programming') }}"><img id="code_gif" class="home_img" src="https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif" alt="GIF of lines of code"></a>
+                        <div id="programming"><a class="text-light" href="{{ url_for('programming') }}">PROGRAMMING</div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div id="mu_link">
+                        <a class="home_links text-dark" href="{{ url_for('music') }}"><img id="mu_gif" class="home_img" src="https://media.giphy.com/media/xTiQyNEY3kQ8r7WKFq/giphy.gif" alt="GIF of man running along a music stave"></a>
+                        <div id="music"><a class="text-dark" href="{{ url_for('music') }}">MUSIC</a></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </body>
+</html>

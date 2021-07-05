@@ -1,0 +1,59 @@
+body {
+    background-color: #ffffee;
+}
+
+.home_img {
+    width: 200px;
+    height: 200px;
+    margin:20px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 30px auto;
+}
+.content {
+    margin-left: 15px;
+}
+.page-img {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    border: 1px solid #eee;
+    object-fit: cover;
+    margin: 10px;
+}
+.page {
+    text-align: center;
+}
+h5 {
+    margin-top: 25px;
+}
+form {
+    margin: 0 30%;
+}
+#emailHelp {
+    margin: 10px 0;
+}
+
+
+#programming {
+    position: relative;
+    bottom: 170px;
+    color: white;
+    font-size: 1.2em;
+}
+#music {
+    position: relative;
+    bottom: 180px;
+    font-size: 1.2em;
+}
+
+.thanks {
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    width: 75%;
+}
